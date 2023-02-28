@@ -41,11 +41,13 @@ body {
     height: 100%;
     padding: 20px;
     position: absolute;
-    border: 2px solid deeppink;
+    /* border: 2px solid deeppink; */
     backface-visibility: hidden;
 }
 
-
+.front-face {
+    transform: rotateY(180deg);
+}
 img {
     width: 100%;
 }
